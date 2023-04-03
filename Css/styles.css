@@ -90,4 +90,42 @@ body{
     .navbar-links.active{
         display: flex;
     }
+    .background-img{
+        width: fit-content;
+    }
+}
+
+.call-button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    transform: translate(-50, -50);
+    border-radius: 6px;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    outline: 1px solid #808080;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.call-button:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: #666666;
+}
+
+.background-img{
+    height: 700px;
+    width: 88em;
+    margin: 1em;
+    background-size: cover;
+    background-image: url(./paving-banner.jpg)
+}
+
+.Secondpage{
+    background-color: white;
+    height: 20em;
+    padding-top: 0;
 }
