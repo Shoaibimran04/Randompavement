@@ -10,64 +10,51 @@
     <script src="https://kit.fontawesome.com/4bca82d65c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="brand-title">
-        <a href="./index.html">Pavement Pro</a></div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./login.html">Contact</a></li>
-                <li><a href="./about.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="contactInfo">
-            <div class="icon">
-                <h3>Phone</h3><i class="fa-solid fa-phone"></i>
-                <p>705-309-9990</p>
-                <h3>Email</h3><i class="fa-solid fa-envelope"></i>
-                <p>Randomperson@gmail.com </p>
-                <h3>Address</h3><i class="fa-solid fa-home"></i>
-                <p>Barrie On</p>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Pavement<span>Pro</span></a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./login.html">Contact</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact<span>Us!</span></h2>
+                <h4>If you have a project in mind.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolorum nulla eius nisi, vel excepturi consequatur.</p>
+                <div class="list">
+                    <li><a href="#">705-309-9990</a></li>
+                    <li><a href="#">Imranshahidlhr@hotmail.com</a></li>
+                    <li><a href="#">Barrie, Ontario</a></li>
+                </div>
     
-    <div class="box">
-        <form>
-            <h2>Contact us</h2>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>FirstName</span>
-                <i></i>
-            </div>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>Lastname</span>
-                <i></i>
-            </div>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>Email</span>
-                <i></i>
-            </div>
-            <span class="message">Type Your Message</span>
-            <div class="inputBox">
-                <div class="inputbox">
-                    <textarea required="required"></textarea>                
+                <div class="contact-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i>
+                    <a href="#"><i class="fa-brands fa-instagram"></i>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i>
                 </div>
-                <i></i>
+            </div>
+    
+                <div class="contact-form">
+                    <form action="">
+                        <input type="name" placeholder="Your Name" required>
+                        <input type="Email" placeholder="Your Email" required>
+                        <input type="" placeholder="Phone number" required>
+                        <textarea type="name" id="" cols="35" rows="10" placeholder="How can I Help" required></textarea>
+                        <input type="submit" value="Send Message" class="submit" required>
+                    </form>
                 </div>
-            
-            <input type="submit" value="Send">
-            <div>
-        </form>
-    </div>
+        </section>
 </body>
 </html>

@@ -5,12 +5,23 @@
     font-family: sans-serif;
 }
 
+/* All Navbar elements */
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
+}
+.brand-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+span{
+    color: #ff4d05;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
 }
 .navbar-links ul{
     margin: 0;
@@ -34,8 +45,10 @@
     background-color: #555;
 }
 
+/* Main section */
+
 body{
-    background-color: #dee0e3;
+    background-color: #202020;
 }
 
 .heading{
@@ -44,12 +57,14 @@ body{
 }
 .heading h1{
     font-size: 50px;
-    color: #36455c;
+    color: #fff;
     margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .heading p{
     font-size: 20px;
-    color: #666;
+    color: #fff;
     margin-bottom: 50px;
 }
 
@@ -58,6 +73,7 @@ body{
     align-items: center;
     width: 85%;
     margin: auto;
+    color: #fff;
 }
 
 .about-us img{
@@ -65,19 +81,23 @@ body{
     max-width: 50%;
     height: auto;
 }
+.span{
+    color: #ff4d05;
+}
 
 .content{
     padding: 35px;
 }
 
 .content h2{
-    color: #36455c;
+    color: #fff;
     font-size: 24px;
     margin: 15px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .content p{
-    color: #666;
+    color: White;
     font-size: 18px;
     line-height: 1.5;
     margin: 15px 0px;
@@ -86,7 +106,7 @@ body{
 .read-more-btn{
     display: inline-block;
     color: #fff;
-    background-color: grey;
+    background-color: #ff4d05;
     border: none;
     border-radius: 5px;
     padding: 12px 20px;
@@ -94,8 +114,11 @@ body{
     cursor: pointer;
 }
 .read-more-btn:hover{
-    background-color: darkgrey;
+    background-color: orange;
 }
+
+/* responsive elements */
+
 @media(max-width:768px){
     .about-us{
         flex-direction: column;
