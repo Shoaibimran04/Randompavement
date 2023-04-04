@@ -7,6 +7,7 @@
     list-style: none;
     scroll-behavior: smooth;
 }
+@import url('https://fonts.cdnfonts.com/css/maximum-impact');
 
 /* This section is new */
 
@@ -29,8 +30,9 @@ body{
 .logo{
     color: var(--text-color);
     font-size: 35px;
-    font-weight: 700;
     letter-spacing: 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
 }
 span{
     color: var(--main-color);
@@ -338,8 +340,8 @@ img{
 
 .brand-title{
     font-size: 1.5em;
-    margin: 0.5em;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0.5em;                                                                   font-family: 'Maximum Impact', sans-serif;
+                                                
 }
 
 .navbar-links ul{
